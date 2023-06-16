@@ -1,5 +1,7 @@
 import "./footer.css";
-import { faHeart} from "@fortawesome/free-solid-svg-icons";
+import {
+faHeart
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Footer = () => {
@@ -36,7 +38,7 @@ const Footer = () => {
           <li className="fListItem">Travel Agents </li>
         </ul>
         <ul className="fList">
-          <li className="fListItem">Customer Service</li>
+          <li className="fListItem">Curtomer Service</li>
           <li className="fListItem">Partner Help</li>
           <li className="fListItem">Careers</li>
           <li className="fListItem">Sustainability</li>
@@ -46,7 +48,7 @@ const Footer = () => {
           <li className="fListItem">Terms & conditions</li>
         </ul>
       </div>
-      <div className="fText">Copyright © 2023 MyHotel. | Made With <FontAwesomeIcon icon={faHeart} style={{color: "#ff0026",}} /> Accio</div>
+      <div className="fText">Copyright © 2022 My Hotel. | Made With <FontAwesomeIcon icon={faHeart} style={{color: "#ff0000",}} /> By ACCIO </div>
     </div>
   );
 };

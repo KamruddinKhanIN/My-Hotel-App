@@ -1,9 +1,9 @@
-import { useNavigate } from "react-router-dom";
 import "./searchItem.css";
+import { useNavigate } from "react-router-dom";
 
 const SearchItem = () => {
 
-  const Navigate= useNavigate();
+  const navigate= useNavigate();
   return (
     <div className="searchItem">
       <img
@@ -34,7 +34,7 @@ const SearchItem = () => {
         <div className="siDetailTexts">
           <span className="siPrice">$112</span>
           <span className="siTaxOp">Includes taxes and fees</span>
-          <button className="siCheckButton" onClick={()=>{Navigate("/hotels/abc")}}>See availability</button>
+          <button className="siCheckButton" onClick={()=>{navigate("/hotels/abc")}}>See availability</button>
         </div>
       </div>
     </div>

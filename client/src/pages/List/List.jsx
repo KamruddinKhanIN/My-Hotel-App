@@ -9,9 +9,11 @@ import SearchItem from "../../components/searchItem/SearchItem";
 
 const List = () => {
   const location = useLocation();
+  // eslint-disable-next-line 
   const [destination, setDestination] = useState(location.state.destination);
   const [date, setDate] = useState(location.state.date);
   const [openDate, setOpenDate] = useState(false);
+  // eslint-disable-next-line 
   const [options, setOptions] = useState(location.state.options);
 
   return (
