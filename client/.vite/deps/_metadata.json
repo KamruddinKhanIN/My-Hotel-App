@@ -1,0 +1,62 @@
+{
+  "hash": "b92819f6",
+  "browserHash": "32cb16f7",
+  "optimized": {
+    "@fortawesome/free-solid-svg-icons": {
+      "src": "../../node_modules/@fortawesome/free-solid-svg-icons/index.mjs",
+      "file": "@fortawesome_free-solid-svg-icons.js",
+      "fileHash": "a74b244c",
+      "needsInterop": false
+    },
+    "@fortawesome/react-fontawesome": {
+      "src": "../../node_modules/@fortawesome/react-fontawesome/index.es.js",
+      "file": "@fortawesome_react-fontawesome.js",
+      "fileHash": "cfd778e3",
+      "needsInterop": false
+    },
+    "date-fns": {
+      "src": "../../node_modules/date-fns/esm/index.js",
+      "file": "date-fns.js",
+      "fileHash": "9b76320c",
+      "needsInterop": false
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "c17bc0c5",
+      "needsInterop": true
+    },
+    "react-date-range": {
+      "src": "../../node_modules/react-date-range/dist/index.js",
+      "file": "react-date-range.js",
+      "fileHash": "4f851159",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "1d9c2d33",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "9333fbcd",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-DEIXXJOV": {
+      "file": "chunk-DEIXXJOV.js"
+    },
+    "chunk-QBAKOC45": {
+      "file": "chunk-QBAKOC45.js"
+    },
+    "chunk-FLAVOKRJ": {
+      "file": "chunk-FLAVOKRJ.js"
+    },
+    "chunk-AC2VUBZ6": {
+      "file": "chunk-AC2VUBZ6.js"
+    }
+  }
+}
